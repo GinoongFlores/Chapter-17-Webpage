@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 17</title>
+
+  <style>
+    header {
+      display: block;
+    }
+
+    body {
+      color: #555555;
+      background-color: #f9f8f6;
+      background-position: center;
+      background-image: url(img/bd1.jpg);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.4em;
+      margin: 0px;
+    }
+
+    .wrapper {
+      width: 940px;
+      margin: 20px auto 20px auto;
+      border: 2px solid #000000;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      text-indent: -9999px;
+      width: 950px;
+      height: 130px;
+      margin: 0px;
+    }
+
+    header {
+      height: 160px;
+      background-image: url(img/logo.png);
+    }
+
+    nav,
+    footer {
+      clear: both;
+      color: #ffffff;
+      background-color: #aeaca8;
+      height: 30px;
+    }
+
+    nav ul {
+      margin: 0px;
+      padding: 5px 0px 5px 30px;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 40px;
+    }
+
+    nav li a {
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #000000;
+    }
+
+
+    nav li a:hover,
+    nav li a.current {
+      color: #000000;
+    }
+
+    section.sections {
+      float: left;
+      width: 659px;
+      border: 1px solid #eeeeee;
+    }
+
+    article {
+      clear: both;
+      overflow: auto;
+      width: 100%;
+    }
+
+    hgroup {
+      margin-top: 40px;
+    }
+
+    figure {
+      float: left;
+      width: 290px;
+      height: 220px;
+      padding: 5px;
+      margin: 20px;
+      border: 1px solid #eeeeee;
+    }
+
+    figcaption {
+      font-size: 95%;
+      text-align: center;
+    }
+
+    aside {
+      width: 230px;
+      float: left;
+      padding: 0px 0px 0px 20px;
+    }
+
+    aside section a {
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    aside section a:hover {
+      color: #985d6a;
+      background-color: #efefef;
+    }
+
+    a {
+      color: #de6581;
+      text-decoration: none;
+    }
+
+    a.section-links:hover {
+      text-decoration: underline;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-weight: normal;
+    }
+
+    h2 {
+      margin: 10px 0px 5px 0px;
+      padding: 0px;
+    }
+
+    h3 {
+      margin: 0px 0px 10px 0px;
+      color: #de6581;
+    }
+
+    aside h2 {
+      padding: 30px 0px 10px 0px;
+      color: #de6581;
+    }
+
+    footer {
+      font-size: 80%;
+      padding: 7px 0px 0px 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1>Flores Web Design</h1>
+      <nav>
+        <ul>
+          <li><a href="#" class="current">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="sections">
+      <article>
+        <figure>
+          <img src="img/elena.jpg" width="290px" height="190px" alt="elena's restaurant">
+          <a href="https://florestech.netlify.app" class="section-links">
+            <figcaption>Elena's Restaurant</figcaption>
+          </a>
+        </figure>
+        <hgroup>
+          <h2>First Client</h2>
+          <h3>Made with bootstrap</h3>
+        </hgroup>
+        <p>We've been pick by Elena's restaurant to create their website. We do our best to provide them a good design
+          that matches their Filipino cuisines.</p>
+      </article>
+
+      <article>
+        <figure>
+          <img src="img/sowhat.jpg" width="290x" height="190px" alt="sowhat Clothing">
+          <a href="https://florestech.netlify.app" class="section-links">
+            <figcaption>SoWhat Clothing</figcaption>
+          </a>
+        </figure>
+        <hgroup>
+          <h2>Second Client</h2>
+          <h3>Made With Bootstrap</h3>
+        </hgroup>
+        <p>SoWhat Clothing is our local client we notice they need to spread their products online. And we made a
+          website for them that is simple but elegant to attract their customers.</p>
+      </article>
+    </section>
+
+    <aside>
+      <section class="popular websites">
+        <h2>Popular Websites</h2>
+        <a href="http://appyfizz.com//">Appy Fizz</a>
+        <a href="https://histography.io/">Histography</a>
+        <a href="http://onthegrid.city/">On the Grid</a>
+        <a href="https://www.monotype.com/">Monotype</a>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <p>Flores Business Website <br>
+          Barangay 29 Justo Ramonal ST. Mindanao, Misamis Oriental Philippines.
+        </p>
+      </section>
+    </aside>
+
+    <footer>
+      &copy; 2021 Flores Web Design
+    </footer>
+
+  </div>
+
+
+</body>
+
+</html>
