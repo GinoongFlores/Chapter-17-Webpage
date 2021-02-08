@@ -226,7 +226,7 @@ footer {
 
 @media screen and (max-width: 576px) {
   #logo {
-    width: 35rem;
+    width: 40rem;
   }
 
   nav,
@@ -235,11 +235,11 @@ footer {
   }
 
   .wrapper {
-    width: 36rem;
+    width: 40rem;
   }
 
   header {
-    height: 7rem;
+    height: 8rem;
   }
 
   nav li {
@@ -251,8 +251,8 @@ footer {
   }
 
   article {
-    width: 29rem;
-    font-size: 0.7rem;
+    width: 35rem;
+    font-size: 1rem;
   }
 
   figure {
@@ -267,7 +267,7 @@ footer {
   }
 
   figcaption {
-    font-size: 0.7rem;
+    font-size: 1rem;
     margin-top: 0.3rem;
   }
 
@@ -286,44 +286,23 @@ footer {
 
   .websites,
   .contact {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   footer {
-    font-size: 60%;
+    font-size: 70%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  #logo {
-    width: 30rem;
-  }
-
   nav,
   footer {
-    height: 1.6rem;
-  }
-
-  .wrapper {
-    width: 30rem;
-  }
-
-  header {
-    height: 6rem;
+    height: 1.9rem;
   }
 
   nav li {
     font-size: 0.8rem;
     margin-right: 0.7rem;
-  }
-
-  section.sections {
-    width: 40rem;
-  }
-
-  article {
-    width: 29rem;
-    font-size: 0.7rem;
   }
 
   figure {
@@ -337,11 +316,6 @@ footer {
     height: 8rem;
   }
 
-  figcaption {
-    font-size: 0.7rem;
-    margin-top: 0.3rem;
-  }
-
   aside {
     padding-left: 1.5rem;
     width: 9rem;
@@ -349,11 +323,6 @@ footer {
 
   aside h2 {
     padding: 1rem 0 1rem 0;
-  }
-
-  .websites,
-  .contact {
-    font-size: 0.8rem;
   }
 
   h3 {
