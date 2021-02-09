@@ -172,6 +172,7 @@ footer {
 
   .wrapper {
     width: 48rem;
+    overflow: hidden;
   }
 
   header {
@@ -297,7 +298,30 @@ footer {
 @media screen and (max-width: 480px) {
   nav,
   footer {
-    height: 1.9rem;
+    height: 1.8rem;
+  }
+
+  #logo {
+    width: 30rem;
+  }
+
+  .wrapper {
+    width: 30rem;
+    overflow: hidden;
+  }
+
+  section.sections {
+    width: 20rem;
+    clear: both;
+  }
+
+  article {
+    font-size: 0.7rem;
+    clear: none;
+  }
+
+  figcaption {
+    font-size: 0.9rem;
   }
 
   nav li {
@@ -312,8 +336,8 @@ footer {
   }
 
   figure img {
-    width: 13rem;
-    height: 8rem;
+    width: 12rem;
+    height: 7rem;
   }
 
   aside {
@@ -327,6 +351,11 @@ footer {
 
   h3 {
     margin-bottom: 0.3rem;
+  }
+
+  .websites,
+  .contact {
+    font-size: 0.7rem;
   }
 
   footer {
