@@ -298,26 +298,27 @@ footer {
 @media screen and (max-width: 480px) {
   nav,
   footer {
-    height: 1.8rem;
+    height: 1.9rem;
   }
 
   #logo {
-    width: 30rem;
+    width: 25rem;
   }
 
   .wrapper {
-    width: 30rem;
-    overflow: hidden;
+    width: 25rem;
   }
 
   section.sections {
     width: 20rem;
-    clear: both;
+    display: flex;
+    padding-left: 2.5rem;
+    flex-wrap: wrap;
+    border: none;
   }
 
   article {
     font-size: 0.7rem;
-    clear: none;
   }
 
   figcaption {
@@ -330,9 +331,11 @@ footer {
   }
 
   figure {
-    width: 13rem;
-    height: 12rem;
-    margin-top: 2rem;
+    float: none;
+    width: 10rem;
+    height: 8rem;
+    margin-top: 0.5rem;
+    border: none;
   }
 
   figure img {
